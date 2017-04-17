@@ -26,7 +26,7 @@ https://github.com/codepath/android_guides/wiki/Using-an-ArrayAdapter-with-ListV
  ```xml
 <uses-permission android:name="android.permission.INTERNET"/>
  ```
- - arseApplications.java try/catch block
+ - ParseApplications.java try/catch block
   ```java
    public boolean parse(String xmlData) {
         boolean status = true;
