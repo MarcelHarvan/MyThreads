@@ -14,6 +14,7 @@ a definition of the ArrayAdapter with ListView in link below.
 
 ```html
 https://github.com/codepath/android_guides/wiki/Using-an-ArrayAdapter-with-ListView
+https://www.youtube.com/watch?v=wDBM6wVEO70
 ```
 
 ## Requirements
