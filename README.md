@@ -1,7 +1,7 @@
 # MyThreads [![MyWeb](http://marcelharvan.com/images/glyphicons-341-globe.png)](http://marcelharvan.com)
 An Android application using AsyncTask along with ArrayAdapter.
 The main task of Async is to download data from the server from the address below.
-I used feeds RSS of BBC, you can use any RSS feeds as long as they are in xml format to fit into my pattern.
+I used feeds RSS of BBC, you can use any RSS feeds as long as they are in XML format to fit into my pattern.
 Using different RSS than mine you should change try/catch block in ParseApplications.java
 
 ```html
@@ -83,6 +83,30 @@ https://github.com/codepath/android_guides/wiki/Using-an-ArrayAdapter-with-ListV
     }
   
    ```
+ - Class FeedAdapter extends ArrayAdapter. Necessary additional Override methods:
+ 
+ ```java
+  @Override
+    public int getCount() {
+        return applications.size();
+    }
+    
+       @NonNull
+    @Override
+    public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
+        View view = layoutInflater.inflate(layoutResource, parent, false);
+        TextView tvTitle = (TextView) view.findViewById(R.id.tvTitle);
+        TextView tvDescription = (TextView) view.findViewById(R.id.tvDescription);
+        FeedEntry currentApp = applications.get(position);
+
+        tvTitle.setText(currentApp.getTitle());
+        tvDescription.setText(currentApp.getDescription());
+        return view;
+    }
+ 
+ ```
+ 
+ 
  
  
 
