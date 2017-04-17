@@ -9,8 +9,12 @@ http://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml
 https://www.apple.com/ca/rss/
 ```
 
+An ArrayAdapter shows the data in a ListView,
+a definition of the ArrayAdapter with ListView in link below.
 
-
+```html
+https://github.com/codepath/android_guides/wiki/Using-an-ArrayAdapter-with-ListView
+```
 
 ## Requirements
 - Android Studio 2.3.1 or grater
@@ -21,8 +25,5 @@ https://www.apple.com/ca/rss/
 
 
 
-http://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml
-(I used feeds RSS of BBC)
-An ArrayAdapter shows the data in a ListView,
-a definition of the ArrayAdapter with ListView in link below.
-https://github.com/codepath/android_guides/wiki/Using-an-ArrayAdapter-with-ListView
+
+
