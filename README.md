@@ -1,6 +1,7 @@
 # MyThreads
 An Android application using AsyncTask along with ArrayAdapter.
-[![MyWeb](http://marcelharvan.com/images/glyphicons-341-globe.png)](http://marcelharvan.com)(MyWeb)
+
+[![MyWeb](http://marcelharvan.com/images/glyphicons-341-globe.png)](http://marcelharvan.com)MyWeb
 
 
 The main task of Async is to download data from the server from the address below.
