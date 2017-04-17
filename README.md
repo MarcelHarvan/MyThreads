@@ -20,8 +20,7 @@ https://github.com/codepath/android_guides/wiki/Using-an-ArrayAdapter-with-ListV
 - Android Studio 2.3.1 or grater
 - RSS Feeds, If other than mine
 
-## Steps 
-
+## Good to know
 
 
 
